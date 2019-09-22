@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+import ClimaFormation from './components/card';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import ApolloClient from "apollo-boost";
 import { ApolloProvider } from "react-apollo";
@@ -26,7 +27,8 @@ function App() {
           <Route exact path="/signupinstitution" component={SignUpInstitution} />
         </Switch>
         <Slider />
-      <Footer />
+        <ClimaFormation />
+        <Footer />
       </Router>
     </ApolloProvider>
   );
