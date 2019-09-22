@@ -1,10 +1,13 @@
 import React from "react";
-import "./App.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// ******Components
 import SignUp from "./components/header/SignUp/SignUp";
 import SignUpInstitution from "./components/header/SignUp/SignUpInstitution";
-
 import Header from "./components/header/Header";
+import Slider from "./components/Slider/Slider";
+// ******Bootstrap*******
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// ******Css Import ******
+import "./App.css";
 
 function App() {
   return (
@@ -15,6 +18,7 @@ function App() {
         <Route exact path="/signupuser" component={SignUp} />
         <Route exact path="/signupinstitution" component={SignUpInstitution} />
       </Switch>
+      <Slider />
     </Router>
   );
 }
