@@ -1,0 +1,48 @@
+.countries-city{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px 50px;
+    padding: 20px;
+    text-decoration: none;
+  }  
+  .countries-city a {
+    
+    text-decoration: none;
+    color: #747474;
+  }
+  
+  .emty-card{
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .formy{
+    padding: 10px;
+  }
+   .town{
+    padding: 30px;
+   
+    
+   }
+  
+  .town:hover{
+   
+    border: 5px ;
+    box-shadow: 2px 2px 2px 2px gray ;
+  }
+  
+  
+  .see {
+    background-color: #1662C6;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .see a{
+    color: white;
+  }
