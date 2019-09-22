@@ -23,6 +23,9 @@ function SignUp() {
   return (
     <Container className="mr-auto form-cont ">
       <Form>
+        <Form.Row className="form-title">
+          <h4>Please fill all the fiealds</h4>
+        </Form.Row>
         <Form.Row>
           <Form.Group onChange={changeHandler}>
             <Form.Label>Full Name:</Form.Label>
@@ -78,10 +81,16 @@ function SignUp() {
             />
           </Form.Group>
         </Form.Row>
-
-        <Button variant="primary" type="submit" onSubmit={e => handleSubmit(e)}>
-          Submit
-        </Button>
+        <Form.Row>
+          <Button
+            className="btn-submit"
+            variant="primary"
+            type="submit"
+            onSubmit={e => handleSubmit(e)}
+          >
+            Submit
+          </Button>
+        </Form.Row>
       </Form>
     </Container>
   );

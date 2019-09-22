@@ -2,9 +2,22 @@
   width: 80%;
   justify-content: center;
   border: 1px solid #ababab;
+  border-radius: 5px;
   margin-top: 1%;
   margin-bottom: 1%;
+  padding-bottom: 2%;
 }
 .form-cont .form-row {
+  width: 80%;
   justify-content: center;
+}
+.form-group {
+  width: 70%;
+}
+.form-title h4 {
+  margin-top: 2%;
+}
+
+.btn-submit {
+  align-items: flex-end;
 }

@@ -1,0 +1,18 @@
+.main-footer {
+  height: 250px;
+  background-color: #000;
+  color: #fff;
+  padding: 2%;
+}
+.separator {
+  width: 1px;
+  background-color: #fff;
+}
+hr {
+  color: #fff;
+}
+.design-cont {
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 300;
+}
