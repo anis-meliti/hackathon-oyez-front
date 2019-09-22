@@ -1,0 +1,10 @@
+.form-cont {
+  width: 80%;
+  justify-content: center;
+  border: 1px solid #ababab;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.form-cont .form-row {
+  justify-content: center;
+}
